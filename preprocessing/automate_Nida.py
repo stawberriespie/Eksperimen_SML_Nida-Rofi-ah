@@ -20,7 +20,8 @@ def preprocess_data(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_path = os.path.join("..", "penguins.csv")
+    input_path = os.path.join("penguins.csv")
     output_path = os.path.join("penguins_preprocessing.csv")
     
+
     preprocess_data(input_path, output_path)
