@@ -36,6 +36,6 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com" 
-        git add preprocessing/namadataset_preprocessing/penguins_clean.csv
+        git add preprocessing/penguins_preprocessing.csv
         git commit -m "Auto-update: Processed dataset via GitHub Actions" || echo "No changes to commit"
         git push
